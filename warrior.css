@@ -1,0 +1,55 @@
+body{
+
+    margin:0;
+
+    background-color:#e8d8b5;
+
+
+}
+
+.page{
+
+    width:100vw;
+
+    height:10000vh;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+.back-button{
+
+    position: fixed;
+
+    top: 20px;
+    left: 20px;
+
+    text-decoration: none;
+
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+
+    color: #4a3b2a;
+
+    background-color: #e8d8b5;
+
+    padding: 12px 25px;
+
+    border-radius: 20px;
+
+    transition: .3s;
+
+    z-index: 1000;
+
+}
+
+
+.back-button:hover{
+
+    background-color: #d6c29d;
+
+    transform: scale(1.05);
+
+}
